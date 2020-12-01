@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<MS_ModName>More Security</MS_ModName>
+
+	<!-- Settings -->
+	<MS_SettingsCategory>More Security</MS_SettingsCategory>
+	<MS_ResearchCosts>Research Costs</MS_ResearchCosts>
+	<MS_TrapMKIIResearchCost>Traps MKII</MS_TrapMKIIResearchCost>
+	<MS_TurretsMKIIResearchCost>Turrets MKII</MS_TurretsMKIIResearchCost>
+	<MS_TurretsMKIIIResearchCost>Turrets MKIII</MS_TurretsMKIIIResearchCost>
+	<MS_TurretsMKIVResearchCost>Turrets MKIV</MS_TurretsMKIVResearchCost>
+	
+	<MS_Sandbags>Sandbags</MS_Sandbags>
+	<MS_SandbagsMKII>Reinforced sandbags</MS_SandbagsMKII>
+	<MS_SandbagsMKIII>Plasteel reinforced sandbags</MS_SandbagsMKIII>
+	<MS_Sandbags_MaxHP> maximum hitpoints</MS_Sandbags_MaxHP>
+	
+	<MS_ShotgunTurret>Shotgun Turret</MS_ShotgunTurret>
+	<MS_FlamethrowerTurret>Flamethrower Turret</MS_FlamethrowerTurret>
+	<MS_HitechUraniumTurret>Hi-tech Uranium Turret</MS_HitechUraniumTurret>
+	<MS_UltraUraniumTurret>Ultra-tech Uranium Turret</MS_UltraUraniumTurret>
+	<MS_HitechMinigunTurretMKI>Hi-tech Minigun Turret</MS_HitechMinigunTurretMKI>
+	<MS_HitechMinigunTurretMKII>Hi-tech Minigun Turret MKII</MS_HitechMinigunTurretMKII>
+	
+	<MS_MaxHP>Max (Base) Hitpoints</MS_MaxHP>
+	<MS_Beauty>Beauty</MS_Beauty>
+	<MS_StoppingPower>Stopping Power</MS_StoppingPower>
+	<MS_BulletSpeed>Bullet Speed</MS_BulletSpeed>
+	<MS_TurretBurstCooldownTime>Weapon Cooldown (in seconds; lower value = faster)</MS_TurretBurstCooldownTime>
+	<MS_CostSteel>Steel Cost</MS_CostSteel>
+	<MS_CostComponent>Component Cost</MS_CostComponent>
+	<MS_CostComponentSpacer>Advanced Component Cost</MS_CostComponentSpacer>
+	
+	<MS_NeedRebuild>Note: Some settings require buildings to be rebuild before they take effect.</MS_NeedRebuild>
+	<!-- End of Settings -->
+  
+</LanguageData>
