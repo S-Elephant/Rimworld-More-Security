@@ -5,97 +5,99 @@ namespace SquirtingElephant.MoreSecurity
 {
     public class MS_SettingsData : ModSettings
     {
+        #region Fields
+        
         public int ResearchCost_TrapsMKII = 1250;
         public int ResearchCost_GunTurretMKII = 1250;
         public int ResearchCost_GunTurretMKIII = 6000;
         public int ResearchCost_GunTurretMKIV = 22000;
 
-        public int SandbagMKII_MaxHP = 675;
-        public int SandbagMKIII_MaxHP = 1000;
+        public int SandbagMKII_MaxHp = 675;
+        public int SandbagMKIII_MaxHp = 1000;
 
-        private TurretSettings ShotgunTurretSettings = new TurretSettings
-        {
-            TranslationKey = "MS_ShotgunTurret",
-            DefName = "SE_ShotgunTurret",
-            BulletDefName = "Bullet_SE_ShotgunTurret",
-            MaxHp = 425,
-            Beauty = -5,
-            StoppingPower = 3.0f,
-            BulletSpeed = 65,
-            BurstCooldown = 2.5f,
-            CostSteel = 225,
-            CostComponent = 3
-        };
+        private TurretSettings ShotgunTurretSettings = new TurretSettings(
+            1,
+            "MS_ShotgunTurret",
+            "SE_ShotgunTurret",
+            "Bullet_SE_ShotgunTurret",
+            425,
+            -5,
+            3.0f,
+            65,
+            2.5f,
+            225,
+            3
+        );
 
-        private TurretSettings FlameThrowerTurretSettings = new TurretSettings
-        {
-            TranslationKey = "MS_FlamethrowerTurret",
-            DefName = "SE_Turret_FlamethrowerTurret",
-            BulletDefName = "SE_Bullet_Flamethrower",
-            MaxHp = 425,
-            Beauty = -5,
-            StoppingPower = 3.0f,
-            BulletSpeed = 65,
-            BurstCooldown = 2.5f,
-            CostSteel = 225,
-            CostComponent = 3
-        };
+        private TurretSettings FlameThrowerTurretSettings = new TurretSettings(
+            2,
+            "MS_FlamethrowerTurret",
+            "SE_Turret_FlamethrowerTurret",
+            "SE_Bullet_Flamethrower",
+            425,
+            -5,
+            3.0f,
+            65,
+            2.5f,
+            225,
+            3
+        );
 
-        private TurretSettings HitechUraniumTurretSettings = new TurretSettings
-        {
-            TranslationKey = "MS_HitechUraniumTurret",
-            DefName = "Turret_SniperMKII",
-            BulletDefName = "Bullet_TurretSniperMKII",
-            MaxHp = 825,
-            Beauty = -2,
-            StoppingPower = 6.0f,
-            BulletSpeed = 165,
-            BurstCooldown = 5.0f,
-            CostSteel = 975,
-            CostComponent = 12
-        };
+        private TurretSettings HitechUraniumTurretSettings = new TurretSettings(
+            3,
+            "MS_HitechUraniumTurret",
+            "Turret_SniperMKII",
+            "Bullet_TurretSniperMKII",
+            825,
+            -2,
+            6.0f,
+            165,
+            5.0f,
+            975,
+            12
+        );
 
-        private TurretSettings UltraUraniumTurretSettings = new TurretSettings
-        {
-            TranslationKey = "MS_UltraUraniumTurret",
-            DefName = "Turret_SniperMKIII",
-            BulletDefName = "Bullet_TurretSniperMKIII",
-            MaxHp = 1550,
-            Beauty = -2,
-            StoppingPower = 12.0f,
-            BulletSpeed = 160,
-            BurstCooldown = 2.0f,
-            CostSteel = 3550,
-            CostComponent = 0
-        };
+        private TurretSettings UltraUraniumTurretSettings = new TurretSettings(
+            4,
+            "MS_UltraUraniumTurret",
+            "Turret_SniperMKIII",
+            "Bullet_TurretSniperMKIII",
+            1550,
+            -2,
+            12.0f,
+            160,
+            2.0f,
+            3550,
+            1
+        );
 
-        private TurretSettings HitechMinigunTurretMKISettings = new TurretSettings
-        {
-            TranslationKey = "MS_HitechMinigunTurretMKI",
-            DefName = "HT_MinigunTurret",
-            BulletDefName = "HT_MinigunTurret_Bullet",
-            MaxHp = 1100,
-            Beauty = -2,
-            StoppingPower = 0.0f,
-            BulletSpeed = 130,
-            BurstCooldown = 2.0f,
-            CostSteel = 600,
-            CostComponent = 10
-        };
+        private TurretSettings HitechMinigunTurretMKISettings = new TurretSettings(
+            5,
+            "MS_HitechMinigunTurretMKI",
+            "HT_MinigunTurret",
+            "HT_MinigunTurret_Bullet",
+            1100,
+            -2,
+            0.0f,
+            130,
+            2.0f,
+            600,
+            10
+        );
 
-        private TurretSettings HitechMinigunTurretMKIISettings = new TurretSettings
-        {
-            TranslationKey = "MS_HitechMinigunTurretMKII",
-            DefName = "HT_MinigunTurretMKII",
-            BulletDefName = "HT_MinigunTurret_BulletMKII",
-            MaxHp = 1600,
-            Beauty = -2,
-            StoppingPower = 1.0f,
-            BulletSpeed = 130,
-            BurstCooldown = 2.0f,
-            CostSteel = 1200,
-            CostComponent = 15
-        };
+        private TurretSettings HitechMinigunTurretMKIISettings = new TurretSettings(
+            6,
+            "MS_HitechMinigunTurretMKII",
+            "HT_MinigunTurretMKII",
+            "HT_MinigunTurret_BulletMKII",
+            1600,
+            -2,
+            1.0f,
+            130,
+            2.0f,
+            1200,
+            15
+        );
 
         private List<TurretSettings> _AllTurretSettings;
 
@@ -105,6 +107,8 @@ namespace SquirtingElephant.MoreSecurity
             set => _AllTurretSettings = value;
         }
 
+        #endregion
+        
         public override void ExposeData()
         {
             // Research
@@ -114,8 +118,8 @@ namespace SquirtingElephant.MoreSecurity
             Scribe_Values.Look(ref ResearchCost_GunTurretMKIV, "ResearchCost_GunTurretMKIV", 22000);
 
             // Sandbags
-            Scribe_Values.Look(ref SandbagMKII_MaxHP, "SandbagMKII_MaxHP", 675);
-            Scribe_Values.Look(ref SandbagMKIII_MaxHP, "SandbagMKIII_MaxHP", 1000);
+            Scribe_Values.Look(ref SandbagMKII_MaxHp, "SandbagMKII_MaxHP", 675);
+            Scribe_Values.Look(ref SandbagMKIII_MaxHp, "SandbagMKIII_MaxHP", 1000);
             
             // Turrets
             AllTurretSettings.ForEach(s => s.ExposeData());

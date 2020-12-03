@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<VersionData>
-	<overrideVersion>5.0.0</overrideVersion>
-	<requiredLibraryVersion>5.0.0</requiredLibraryVersion>
-	<!-- Optional. This is read by the build.js script for the purpose of release publishing. Not used if you don't use the script. -->
-	<gitHubRepository>UnlimitedHugs/RimworldHugsLibChecker</gitHubRepository>
-</VersionData>

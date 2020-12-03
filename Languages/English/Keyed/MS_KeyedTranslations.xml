@@ -16,21 +16,20 @@
 	<MS_SandbagsMKIII>Plasteel reinforced sandbags</MS_SandbagsMKIII>
 	<MS_Sandbags_MaxHP> maximum hitpoints</MS_Sandbags_MaxHP>
 	
-	<MS_ShotgunTurret>Shotgun Turret</MS_ShotgunTurret>
-	<MS_FlamethrowerTurret>Flamethrower Turret</MS_FlamethrowerTurret>
-	<MS_HitechUraniumTurret>Hi-tech Uranium Turret</MS_HitechUraniumTurret>
-	<MS_UltraUraniumTurret>Ultra-tech Uranium Turret</MS_UltraUraniumTurret>
-	<MS_HitechMinigunTurretMKI>Hi-tech Minigun Turret</MS_HitechMinigunTurretMKI>
-	<MS_HitechMinigunTurretMKII>Hi-tech Minigun Turret MKII</MS_HitechMinigunTurretMKII>
+	<MS_ShotgunTurret>Shotgun</MS_ShotgunTurret>
+	<MS_FlamethrowerTurret>Flamethrower</MS_FlamethrowerTurret>
+	<MS_HitechUraniumTurret>Hi-tech Uranium</MS_HitechUraniumTurret>
+	<MS_UltraUraniumTurret>Ultra-tech Uranium</MS_UltraUraniumTurret>
+	<MS_HitechMinigunTurretMKI>Minigun</MS_HitechMinigunTurretMKI>
+	<MS_HitechMinigunTurretMKII>Minigun MKII</MS_HitechMinigunTurretMKII>
 	
 	<MS_MaxHP>Max (Base) Hitpoints</MS_MaxHP>
 	<MS_Beauty>Beauty</MS_Beauty>
 	<MS_StoppingPower>Stopping Power</MS_StoppingPower>
 	<MS_BulletSpeed>Bullet Speed</MS_BulletSpeed>
-	<MS_TurretBurstCooldownTime>Weapon Cooldown (in seconds; lower value = faster)</MS_TurretBurstCooldownTime>
+	<MS_TurretBurstCooldownTime>Weapon Cooldown</MS_TurretBurstCooldownTime>
 	<MS_CostSteel>Steel Cost</MS_CostSteel>
 	<MS_CostComponent>Component Cost</MS_CostComponent>
-	<MS_CostComponentSpacer>Advanced Component Cost</MS_CostComponentSpacer>
 	
 	<MS_NeedRebuild>Note: Some settings require buildings to be rebuild before they take effect.</MS_NeedRebuild>
 	<!-- End of Settings -->
